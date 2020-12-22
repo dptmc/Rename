@@ -1,6 +1,12 @@
-name: PluginName
+name: Rename
 version: @version@-@apiversion@
-description: An empty plugin for Spigot with Maven
-authors: [ DartPower, AnotherContributorName ]
+author: DartPower
 website: https://github.com/dptmc/DPT-PluginRepoTemplate
-main: io.dpteam.PluginName.Main
+main: io.dpteam.Rename.Main
+commands:
+  rename:
+    permission: rename.allow
+    permission-message: You are missing a permission. rename.allow
+  relore:
+    permission: rename.allow
+    permission-message: You are missing a permission. rename.allow
